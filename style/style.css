@@ -109,15 +109,26 @@
 
 .logo1 {
     font-size: 26px;
+}
 
+@media screen and (max-width:768px) {
+    .logo1 {
+        font-size: 24px;
+    }
 }
 
 
 .home {
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 800px), url(../image/curves\ .jpg);
-    height: 800px;
-    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 7), rgba(0, 0, 0, 0)), url(../image/curves\ .jpg);
+    min-height: 50rem;
+    width: auto;
     object-fit: cover;
+}
+
+@media screen and (max-width:473px) {
+    .home {
+        min-height: 25rem;
+    }
 }
 
 .bg-dark-trans {
@@ -136,18 +147,40 @@
     left: 5px;
 }
 
+.services {
+    padding-left: 65px;
+}
+
+
+.temple {
+    position: relative;
+}
+
+/* 
 .temple1 {
     position: absolute;
     top: 60px;
     left: 327px;
+} */
+
+@media screen and (max-width: 576px) {
+    .temple4 {
+        width: 380px;
+    }
 }
 
-.temple2 {
+@media screen and (max-width: 768px) {
+    .temple4 {
+        width: 350px;
+    }
+}
+
+/* .temple2 {
     position: absolute;
     top: 170px;
     left: 100px;
     z-index: 333;
-}
+} */
 
 .temple3 {
     position: absolute;
@@ -212,7 +245,7 @@
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
 
     .carousel-inner,
     .cs {
@@ -232,6 +265,13 @@
 .top {
     bottom: 100px;
     right: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .top {
+        bottom: 45px !important;
+    }
 }
 
 .h-460 {

@@ -248,8 +248,10 @@
 @media only screen and (max-width: 576px) {
 
     .carousel-inner,
-    .cs {
-        height: 400px;
+    .cs,
+    .carousel_nav-img {
+        height: 250px !important;
+        object-fit: cover;
     }
 }
 
@@ -370,4 +372,8 @@
 
 .hover:hover {
     color: black;
+}
+
+.carousel_nav-img {
+    object-fit: cover;
 }

@@ -395,7 +395,7 @@
 
 .btn-sub {
     background-color: #e35237;
-    padding: 22px 48px;
+    /* padding: 22px 48px; */
     color: #fff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;

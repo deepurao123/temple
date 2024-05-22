@@ -188,6 +188,17 @@
     left: 0px;
 }
 
+.temple4 {
+    margin-left: 106px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .temple4 {
+        margin-left: 0px;
+    }
+}
+
 .bt:hover {
     color: black !important;
 }
